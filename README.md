@@ -2,8 +2,9 @@
 #Pre-requirements
 
     Ensure latest version of Homebrew is installed
+    
 
-#Installing Docker for mac
+Installing Docker for mac
 
 
 Run the following command in the terminal
