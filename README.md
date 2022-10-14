@@ -1,13 +1,21 @@
 # pythonserver
+#Pre-requirements
+Ensure latest version of Homebrew is installed
 
-Install flask using the following command
+#Installing Docker for mac
+Run the following command in the terminal
+    brew install docker
+    
+Download the Docker UI (user interface) for mac on the docker website.
+Download the appropriate download whether you have a intel chip or not on your mac computer.
 
-    pip3 install flask
+Once this has downloaded you can now run a command that will run the docker image
 
-Run the following command in the terminal to start server
+Please run the command below
 
-    flask --app api run
+    docker run -p 5500:5500 ahmeda11/flask_new
 
-Endpoints
+The api runs on localhost port 5500, so to open the api please paste the following url to your browser.
 
-"/home" = homepage
+    http://localhost:5500
+
