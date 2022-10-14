@@ -4,10 +4,14 @@
     Ensure latest version of Homebrew is installed
 
 #Installing Docker for mac
+
+
 Run the following command in the terminal
+
     brew install docker
     
 Download the Docker UI (user interface) for mac on the docker website.
+
 Download the appropriate download whether you have a intel chip or not on your mac computer.
 
 Once this has downloaded you can now run a command that will run the docker image
