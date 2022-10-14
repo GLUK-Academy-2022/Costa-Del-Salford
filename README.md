@@ -17,7 +17,7 @@ Download the appropriate download whether you have a intel chip or not on your m
 
 Once this has downloaded you can now run a command that will run the docker image
 
-Please run the command below
+Please run the command below in the terminal
 
     docker run -p 5500:5500 ahmeda11/flask_new
 
@@ -25,3 +25,5 @@ The api runs on localhost port 5500, so to open the api please paste the followi
 
     http://localhost:5500/home
 
+
+To stop the process please press CTRL + C keys together whilst in the terminal.
