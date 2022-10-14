@@ -22,5 +22,5 @@ Please run the command below
 
 The api runs on localhost port 5500, so to open the api please paste the following url to your browser.
 
-    http://localhost:5500
+    http://localhost:5500/home
 
