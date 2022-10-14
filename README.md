@@ -1,29 +1,29 @@
 # pythonserver
-#Pre-requirements
 
-    Ensure latest version of Homebrew is installed
-    
+## pre-requirements
 
-Installing Docker for mac
+If running a linux machine:
 
+- Docker CLI
 
-Run the following command in the terminal
+to check if installed run:
 
-    brew install docker
-    
-Download the Docker UI (user interface) for mac on the docker website.
+    docker info
 
-Download the appropriate download whether you have a intel chip or not on your mac computer.
+If running a mac machine:
 
-Once this has downloaded you can now run a command that will run the docker image
+- docker desktop
+
+download from here:
+
+    https://www.docker.com/products/docker-desktop/
 
 Please run the command below in the terminal
 
-    docker run -p 5500:5500 ahmeda11/flask_new
+    docker run -p 5500:5500 -it --rm ahmeda11/flask_new
 
 The api runs on localhost port 5500, so to open the api please paste the following url to your browser.
 
     http://localhost:5500/home
-
 
 To stop the process please press CTRL + C keys together whilst in the terminal.
